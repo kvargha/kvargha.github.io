@@ -512,13 +512,13 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
+	background: #fff;
 }
 #contact h2 {
-	color: #fff;
+	color: #121d1f;
 }
 #contact hr {
-	background: rgba(255,255,255,0.3);
+	background: #7bc3d1;
 }
 #contact h3 {
 	padding-top: 20px;
@@ -588,7 +588,7 @@ color: #2c3e50;
 #contact .social i.fa {
 	font-size: 30px;
 	padding: 4px 5px;
-	color: #fff;
+	color: #121d1f;
 	transition: all 0.5s;
 }
 #contact .social i.fa:hover {
