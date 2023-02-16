@@ -1,0 +1,14 @@
+.about-me-section {
+  padding-top: 16px;
+}
+
+.about-me-photo-container {
+  text-align: center;
+}
+
+.about-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: inline-block;
+}

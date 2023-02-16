@@ -1,0 +1,23 @@
+.image-list-item {
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.image-list-item-dark {
+  background-color: #231f20;
+}
+
+.image-list-item-light {
+  background-color: #f1f2f2;
+  color: #808285;
+}
+
+.image-list-item-img {
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  object-fit: contain;
+  margin: auto;
+}

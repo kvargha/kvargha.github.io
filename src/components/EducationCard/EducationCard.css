@@ -1,0 +1,32 @@
+.grid-item {
+  padding: 16px;
+}
+
+.card {
+  display: flex;
+  height: 100%;
+}
+
+.card-details-container {
+  flex: 1;
+  height: 100%;
+}
+
+.card-details {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.degree {
+  margin-bottom: unset !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}

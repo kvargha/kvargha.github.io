@@ -1,0 +1,7 @@
+.scroll-to-top-button {
+  position: fixed !important;
+  bottom: 15px;
+  right: 15px;
+
+  justify-content: center !important;
+}

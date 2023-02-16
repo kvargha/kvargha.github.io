@@ -1,0 +1,55 @@
+:root {
+    --gradient-color-choice-1: #6ec3f4;
+    --gradient-color-choice-2: #3a3aff;
+    --gradient-color-choice-3: #ff61ab;
+    --gradient-color-choice-4: #E63946;
+}
+
+.gradient-title {
+    background: linear-gradient(-225deg, var(--gradient-color-choice-1), var(--gradient-color-choice-2), var(--gradient-color-choice-3), var(--gradient-color-choice-4));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 0;
+}
+
+.section-divider {
+    margin: 10px 0 !important;
+    border-width: 1px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #199bfc !important;
+}
+
+.link-list a, .header-link {
+    color: white !important
+}
+
+.drawer-link-list a {
+    all: unset !important;
+}
+
+
+.top-link-navigation {
+    margin-left: 16px;
+}
+
+.grid-container {
+    padding: 0 !important;
+}
+
+.grid {
+    margin-top: unset !important; 
+    margin-left: unset !important;
+    width: 100% !important;
+}
