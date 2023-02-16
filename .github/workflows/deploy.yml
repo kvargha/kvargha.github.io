@@ -22,7 +22,7 @@ jobs:
     steps:
       # All other workflows needs to be successful before deployment
       - name: Wait for Code Scanning to succeed
-        uses: lewagon/wait-on-check-action@v1.2.0
+        uses: lewagon/wait-on-check-action@master
         with:
           ref: ${{ github.ref }}
           check-name: 'ESLint'
