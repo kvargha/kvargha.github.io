@@ -111,7 +111,7 @@ export default function Home() {
           <p className="intro-text">
             You can find the source code on my{" "}
             <a
-              href="https://github.com/kvargha"
+              href="https://github.com/kvargha/kvargha.github.io"
               target="_blank"
               rel="noreferrer"
             >
