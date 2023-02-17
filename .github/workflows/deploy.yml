@@ -30,7 +30,7 @@ jobs:
         uses: lewagon/wait-on-check-action@master
         with:
           ref: ${{ github.ref }}
-          check-name: 'ESLint'
+          check-name: 'Run linters'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 10
 
