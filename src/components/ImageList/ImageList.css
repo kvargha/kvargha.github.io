@@ -1,3 +1,7 @@
+.image-list-wrapper {
+  padding: 20px !important;
+}
+
 .image-list-item {
   border-radius: 20px;
   padding: 10px;

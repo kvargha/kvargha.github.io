@@ -26,11 +26,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # All other workflows needs to be successful before deployment
-      - name: Wait for Code Scanning to succeed
+      - name: Wait for linter to succeed
         uses: lewagon/wait-on-check-action@master
         with:
           ref: ${{ github.ref }}
-          check-name: 'Run linters'
+          check-name: 'ESLint'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 10
 

@@ -18,7 +18,7 @@ export default function ImageList({ imageData }: ImageArray) {
   return (
     <Grid container spacing={4} className="grid">
       {imageData.map((item) => (
-        <Grid key={item.img} xs={12} sm={6} md={4} lg={3} xl={2} item>
+        <Grid key={item.img} xs={12} sm={6} md={4} lg={3} xl={2} item className="image-list-wrapper">
           <div
             className={`image-list-item ${
               isDarkTheme ? "image-list-item-dark" : "image-list-item-light"
