@@ -90,7 +90,7 @@ export default function Home() {
               </Button>
             </Link>
 
-            <a href={'/Resume.pdf'} target="_blank" rel="noreferrer">
+            <a href={"/Resume.pdf"} target="_blank" rel="noreferrer">
               <Button
                 variant="outlined"
                 size="large"
@@ -109,7 +109,7 @@ export default function Home() {
           </p>
 
           <p className="intro-text">
-            You can find the source code on my {" "}
+            You can find the source code on my{" "}
             <a
               href="https://github.com/kvargha/kvargha.github.io"
               target="_blank"
