@@ -13,6 +13,7 @@ import Contact from "./pages/Contact/Contact";
 // Components
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import ScrollToTopOnRouteChange from "./components/ScrollToTopOnRouteChange/ScrollToTopOnRouteChange";
 
 // MUI Components
 import {
@@ -140,6 +141,7 @@ export default function App() {
 
   return (
     <Router>
+      <ScrollToTopOnRouteChange />
       <ThemeProvider theme={isDarkTheme ? dark : light}>
         <Box sx={{ display: "flex" }}>
           <CssBaseline />
