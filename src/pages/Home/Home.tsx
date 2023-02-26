@@ -31,7 +31,7 @@ export default function Home() {
     {
       company: "UCSC LEEPS Lab",
       dateRange: "May 2020 - August 2021",
-      position: "Lead Programmer",
+      position: "Lead Programmer Intern",
       position2: "Programmer Intern",
       tags: ["Django", "Polymer.js", "Python"],
       image: ucscLogo,
