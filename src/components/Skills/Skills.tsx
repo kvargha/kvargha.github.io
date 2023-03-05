@@ -183,12 +183,12 @@ export default function Skills() {
 
   const cloudServices = [
     {
-      img: aws,
-      title: "AWS",
-    },
-    {
       img: gcp,
       title: "Google Cloud Platform",
+    },
+    {
+      img: aws,
+      title: "AWS",
     },
     // {
     //   img: snowflake,
