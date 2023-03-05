@@ -16,8 +16,8 @@ import InventoryIcon from "@mui/icons-material/Inventory";
 import CloudIcon from "@mui/icons-material/Cloud";
 
 // Languages
-import c from "./img/Languages/c.svg";
-import cplusplus from "./img/Languages/c++.svg";
+// import c from "./img/Languages/c.svg";
+// import cplusplus from "./img/Languages/c++.svg";
 import css from "./img/Languages/css.svg";
 import go from "./img/Languages/go.svg";
 import html from "./img/Languages/html.svg";
@@ -39,14 +39,14 @@ import materialUI from "./img/Frameworks/materialui.svg";
 import nodeJS from "./img/Frameworks/nodejs.svg";
 import polymerJS from "./img/Frameworks/polymerjs.svg";
 import reactJS from "./img/Frameworks/reactjs.svg";
-import terraform from "./img/Frameworks/terraform.svg";
+// import terraform from "./img/Frameworks/terraform.svg";
 
 // Cloud Services
 import aws from "./img/CloudServices/aws.svg";
-import cloudflare from "./img/CloudServices/cloudflare.svg";
+// import cloudflare from "./img/CloudServices/cloudflare.svg";
 import digitalOcean from "./img/CloudServices/digitalocean.svg";
 import gcp from "./img/CloudServices/gcp.svg";
-import snowflake from "./img/CloudServices/snowflake.svg";
+// import snowflake from "./img/CloudServices/snowflake.svg";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -124,14 +124,14 @@ export default function Skills() {
       img: postgresql,
       title: "PostgreSQL",
     },
-    {
-      img: c,
-      title: "C",
-    },
-    {
-      img: cplusplus,
-      title: "C++",
-    },
+    // {
+    //   img: c,
+    //   title: "C",
+    // },
+    // {
+    //   img: cplusplus,
+    //   title: "C++",
+    // },
   ];
 
   const frameworks = [
@@ -175,10 +175,10 @@ export default function Skills() {
       img: polymerJS,
       title: "Polymer.js",
     },
-    {
-      img: terraform,
-      title: "Terraform",
-    },
+    // {
+    //   img: terraform,
+    //   title: "Terraform",
+    // },
   ];
 
   const cloudServices = [
@@ -190,14 +190,14 @@ export default function Skills() {
       img: gcp,
       title: "Google Cloud Platform",
     },
-    {
-      img: snowflake,
-      title: "Snowflake",
-    },
-    {
-      img: cloudflare,
-      title: "Cloudflare",
-    },
+    // {
+    //   img: snowflake,
+    //   title: "Snowflake",
+    // },
+    // {
+    //   img: cloudflare,
+    //   title: "Cloudflare",
+    // },
     {
       img: digitalOcean,
       title: "Digital Ocean",

@@ -7,6 +7,7 @@ import { Container, Grid } from "@mui/material";
 // Images
 import amberDash from "../../img/amber-dash.png";
 import gmail from "../../img/gmail.png";
+import soundcloud from "../../img/soundcloud.png";
 
 export default function Projects() {
   const projects = [
@@ -24,6 +25,13 @@ export default function Projects() {
       description:
         "Recreated the Gmail web app with React.js, Express.js, and PostgreSQL.",
       code: "https://github.com/kvargha/Gmail-Clone",
+    },
+    {
+      image: soundcloud,
+      title: "SoundCloud Clone",
+      description:
+        "Recreated SoundCloud with React.js, Django, and PostgreSQL.",
+      code: "https://github.com/kvargha/SoundCloud-Clone",
     },
   ];
 

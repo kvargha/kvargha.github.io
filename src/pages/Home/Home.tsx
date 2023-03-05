@@ -33,7 +33,7 @@ export default function Home() {
       dateRange: "May 2020 - August 2021",
       position: "Lead Programmer Intern",
       position2: "Programmer Intern",
-      tags: ["Django", "Polymer.js", "Python"],
+      tags: ["Django", "PostgreSQL", "Python"],
       image: ucscLogo,
       link: "https://leeps.ucsc.edu/home/",
     },
@@ -47,7 +47,7 @@ export default function Home() {
       points: [
         "Graduated with honors",
         "Served as the Technology Chair for the student volunteer organization Circle K International",
-        "Related Coursework: Algorithms & Data Structures, Distributed Systems, Web Applications, Machine Learning, Functional Programming, Computer Networking",
+        "Coursework: Distributed Systems, Web Applications, Databases, Computer Networking, Machine Learning",
       ],
     },
   ];
