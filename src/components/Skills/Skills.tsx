@@ -188,7 +188,7 @@ export default function Skills() {
     },
     {
       img: aws,
-      title: "AWS",
+      title: "Amazon Web Services",
     },
     // {
     //   img: snowflake,
@@ -200,7 +200,7 @@ export default function Skills() {
     // },
     {
       img: digitalOcean,
-      title: "Digital Ocean",
+      title: "DigitalOcean",
     },
   ];
 
