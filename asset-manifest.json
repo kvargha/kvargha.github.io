@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.cc4fa594.css",
-    "main.js": "/static/js/main.ab053367.js",
+    "main.js": "/static/js/main.433b410f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/koorous-vargha-square.png": "/static/media/koorous-vargha-square.a4f6f8aba972e730f185.png",
     "static/media/ucsc.png": "/static/media/ucsc.08ad75c5ed789dbcd6cb.png",
+    "static/media/soundcloud.png": "/static/media/soundcloud.53c1dd26d1ccdf2b1d19.png",
     "static/media/aws.svg": "/static/media/aws.124b58d3379a4b99b41c24e5b5bd6ddf.svg",
     "static/media/gmail.png": "/static/media/gmail.70f5ab8edfbc59f5c903.png",
     "static/media/expressjs_light_mode.svg": "/static/media/expressjs_light_mode.5790f007497c3838cf447ef70ccc7c6e.svg",
@@ -18,15 +19,11 @@
     "static/media/reactjs.svg": "/static/media/reactjs.3aae818b53f093fcd84d031df6e4b95d.svg",
     "static/media/kubernetes.svg": "/static/media/kubernetes.124b4ae73bcecaad73ecdc35615c783a.svg",
     "static/media/docker.svg": "/static/media/docker.51033628dd4072d281815563d1ee4c2d.svg",
-    "static/media/snowflake.svg": "/static/media/snowflake.28e30ca6d4d7247c4b353ce697dfc3fe.svg",
     "static/media/materialui.svg": "/static/media/materialui.da4486784dc4d2827ee4fed94f431c4c.svg",
     "static/media/polymerjs.svg": "/static/media/polymerjs.ee04415f7b74692bdc908bd5a3e7b9ca.svg",
-    "static/media/cloudflare.svg": "/static/media/cloudflare.9d4fc418df7e0669a03d675ae259083f.svg",
     "static/media/go.svg": "/static/media/go.5dd1be65f7718cc65a3f94043fb29cc5.svg",
     "static/media/python.svg": "/static/media/python.9e17a14779fcfb1c851ba0f6da38a2d4.svg",
     "static/media/java.svg": "/static/media/java.6d150be4bdeb5bb1a0db10702dc3302b.svg",
-    "static/media/c++.svg": "/static/media/c++.d5aa019d4d5663e7d67b42012228d786.svg",
-    "static/media/c.svg": "/static/media/c.1a45b6b51bd2eba450ba0c1e9284fabd.svg",
     "static/media/javascript.svg": "/static/media/javascript.574b632f0b087e9ff6f898007183dd6b.svg",
     "static/media/typescript.svg": "/static/media/typescript.364ebcc6e07357ff66b7486cdb6076e0.svg",
     "static/media/gcp.svg": "/static/media/gcp.efcb97eb0351c5ef3544e5b74cba24bd.svg",
@@ -35,13 +32,12 @@
     "static/media/digitalocean.svg": "/static/media/digitalocean.5edd066fbadcda7b176ba71b65f0a1f9.svg",
     "static/media/css.svg": "/static/media/css.a231b5d95e833ec6fc610a779014e0cc.svg",
     "static/media/html.svg": "/static/media/html.023723b1305c0a4160f1cb3f39ad9a70.svg",
-    "static/media/terraform.svg": "/static/media/terraform.f578cd13245b48000aec8ea4940b375b.svg",
     "main.cc4fa594.css.map": "/static/css/main.cc4fa594.css.map",
-    "main.ab053367.js.map": "/static/js/main.ab053367.js.map",
+    "main.433b410f.js.map": "/static/js/main.433b410f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc4fa594.css",
-    "static/js/main.ab053367.js"
+    "static/js/main.433b410f.js"
   ]
 }
