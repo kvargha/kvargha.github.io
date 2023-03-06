@@ -68,7 +68,7 @@ export default function Home() {
             <h1 className="main-title">
               Hello, I'm <span>Koorous Vargha</span>
             </h1>
-            <p>Full-Stack Software Engineer</p>
+            <p>Full Stack Software Engineer</p>
           </div>
 
           <CodingImg className="title-image" />
