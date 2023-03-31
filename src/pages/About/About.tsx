@@ -35,8 +35,8 @@ export default function About() {
             </p>
 
             <p>
-              I am Full Stack Software Engineer with experience building highly scalable applications in the
-              cloud and DevOps.
+              I'm a Full Stack Software Engineer with experience in
+              cloud infrastructure and DevOps.
             </p>
 
             <p>
