@@ -19,9 +19,9 @@ import CloudIcon from "@mui/icons-material/Cloud";
 // import c from "./img/Languages/c.svg";
 // import cplusplus from "./img/Languages/c++.svg";
 import css from "./img/Languages/css.svg";
-import go from "./img/Languages/go.svg";
+// import go from "./img/Languages/go.svg";
 import html from "./img/Languages/html.svg";
-import java from "./img/Languages/java.svg";
+// import java from "./img/Languages/java.svg";
 import javascript from "./img/Languages/javascript.svg";
 import postgresql from "./img/Languages/postgresql.svg";
 import python from "./img/Languages/python.svg";
@@ -37,7 +37,7 @@ import jest from "./img/Frameworks/jest.svg";
 import kubernetes from "./img/Frameworks/kubernetes.svg";
 import materialUI from "./img/Frameworks/materialui.svg";
 import nodeJS from "./img/Frameworks/nodejs.svg";
-import polymerJS from "./img/Frameworks/polymerjs.svg";
+// import polymerJS from "./img/Frameworks/polymerjs.svg";
 import reactJS from "./img/Frameworks/reactjs.svg";
 // import terraform from "./img/Frameworks/terraform.svg";
 
@@ -112,14 +112,14 @@ export default function Skills() {
       img: css,
       title: "CSS",
     },
-    {
-      img: java,
-      title: "Java",
-    },
-    {
-      img: go,
-      title: "Go",
-    },
+    // {
+    //   img: java,
+    //   title: "Java",
+    // },
+    // {
+    //   img: go,
+    //   title: "Go",
+    // },
     {
       img: postgresql,
       title: "PostgreSQL",
@@ -134,7 +134,7 @@ export default function Skills() {
     // },
   ];
 
-  const frameworks = [
+  const frameworksAndLibraries = [
     {
       img: docker,
       title: "Docker",
@@ -171,10 +171,10 @@ export default function Skills() {
       img: jest,
       title: "Jest",
     },
-    {
-      img: polymerJS,
-      title: "Polymer.js",
-    },
+    // {
+    //   img: polymerJS,
+    //   title: "Polymer.js",
+    // },
     // {
     //   img: terraform,
     //   title: "Terraform",
@@ -216,7 +216,7 @@ export default function Skills() {
           allowScrollButtonsMobile
         >
           <Tab label="Languages" icon={<CodeIcon />} {...a11yProps(0)} />
-          <Tab label="Frameworks" icon={<InventoryIcon />} {...a11yProps(1)} />
+          <Tab label="Frameworks & Libraries" icon={<InventoryIcon />} {...a11yProps(1)} />
           <Tab label="Cloud Services" icon={<CloudIcon />} {...a11yProps(2)} />
         </Tabs>
       </Box>
@@ -230,7 +230,7 @@ export default function Skills() {
           <ImageList imageData={languages} />
         </TabPanel>
         <TabPanel value={value} index={1}>
-          <ImageList imageData={frameworks} />
+          <ImageList imageData={frameworksAndLibraries} />
         </TabPanel>
         <TabPanel value={value} index={2}>
           <ImageList imageData={cloudServices} />

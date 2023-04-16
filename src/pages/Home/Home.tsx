@@ -21,7 +21,7 @@ import { ReactComponent as CodingImg } from "../../img/coding-img.svg";
 export default function Home() {
   const experience = [
     {
-      company: "UCSC Genomics Institute",
+      company: "The Genomics Institute",
       dateRange: "August 2021 - Present",
       position: "Software Developer",
       tags: ["React.js", "Kubernetes", "Flask"],
@@ -29,7 +29,7 @@ export default function Home() {
       link: "https://genomics.ucsc.edu/",
     },
     {
-      company: "UCSC LEEPS Lab",
+      company: "LEEPS Lab",
       dateRange: "May 2020 - August 2021",
       position: "Lead Programmer Intern",
       position2: "Programmer Intern",
@@ -45,7 +45,7 @@ export default function Home() {
       dateRange: "Sept. 2017 - March 2021",
       degree: "B.S. Computer Science",
       points: [
-        "Graduated with honors",
+        "Graduated with honors in the major",
         "Served as the Technology Chair for the student volunteer organization Circle K International",
         "Coursework: Distributed Systems, Web Applications, Databases, Computer Networking, Machine Learning",
       ],
@@ -79,7 +79,7 @@ export default function Home() {
         <Grid className="grid-item" xs={12} sm={6} item>
           <h2 className="title gradient-title">About Me</h2>
           <p className="intro-text">
-            Hi there! I'm Koorous Vargha, Software Developer at the Genomics
+            Hi there! I'm Koorous Vargha, Software Developer at The Genomics
             Institute.
           </p>
 
