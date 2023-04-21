@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cc4fa594.css",
-    "main.js": "/static/js/main.5dd0a3bc.js",
+    "main.js": "/static/js/main.c4c5434e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/koorous-vargha-square.png": "/static/media/koorous-vargha-square.a4f6f8aba972e730f185.png",
     "static/media/ucsc.png": "/static/media/ucsc.08ad75c5ed789dbcd6cb.png",
@@ -20,7 +20,9 @@
     "static/media/kubernetes.svg": "/static/media/kubernetes.124b4ae73bcecaad73ecdc35615c783a.svg",
     "static/media/docker.svg": "/static/media/docker.51033628dd4072d281815563d1ee4c2d.svg",
     "static/media/materialui.svg": "/static/media/materialui.da4486784dc4d2827ee4fed94f431c4c.svg",
+    "static/media/go.svg": "/static/media/go.5dd1be65f7718cc65a3f94043fb29cc5.svg",
     "static/media/python.svg": "/static/media/python.9e17a14779fcfb1c851ba0f6da38a2d4.svg",
+    "static/media/java.svg": "/static/media/java.6d150be4bdeb5bb1a0db10702dc3302b.svg",
     "static/media/javascript.svg": "/static/media/javascript.574b632f0b087e9ff6f898007183dd6b.svg",
     "static/media/typescript.svg": "/static/media/typescript.364ebcc6e07357ff66b7486cdb6076e0.svg",
     "static/media/gcp.svg": "/static/media/gcp.efcb97eb0351c5ef3544e5b74cba24bd.svg",
@@ -30,11 +32,11 @@
     "static/media/css.svg": "/static/media/css.a231b5d95e833ec6fc610a779014e0cc.svg",
     "static/media/html.svg": "/static/media/html.023723b1305c0a4160f1cb3f39ad9a70.svg",
     "main.cc4fa594.css.map": "/static/css/main.cc4fa594.css.map",
-    "main.5dd0a3bc.js.map": "/static/js/main.5dd0a3bc.js.map",
+    "main.c4c5434e.js.map": "/static/js/main.c4c5434e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc4fa594.css",
-    "static/js/main.5dd0a3bc.js"
+    "static/js/main.c4c5434e.js"
   ]
 }
