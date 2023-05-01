@@ -75,6 +75,16 @@ const light = createTheme({
   palette: {
     mode: "light",
   },
+  components: {
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "white",
+          color: "black"
+        },
+      },
+    }
+  }
 });
 
 const dark = createTheme({
@@ -161,7 +171,7 @@ export default function App() {
                 <MenuIcon />
               </IconButton>
 
-              <Link to="/" className="header-link">
+              <Link to="/" className={`header-link ${isDarkTheme ? "header-link-dark" : "header-link-light"}` }>
                 <Typography variant="h6" noWrap component="div">
                   Koorous Vargha
                 </Typography>
@@ -169,11 +179,11 @@ export default function App() {
 
               {/* Top link navigation */}
               <Box
-                className="link-list top-link-navigation"
+                className={`link-list top-link-navigation ${isDarkTheme ? "link-list-dark" : "link-list-light"}`}
                 sx={{ display: { xs: "none", sm: "block" } }}
               >
                 {navigation.map((item, index) => (
-                  <Button key={index} component={Link} to={item.link}>
+                  <Button key={index} component={Link} to={item.link} size="large" >
                     {item.text}
                   </Button>
                 ))}
