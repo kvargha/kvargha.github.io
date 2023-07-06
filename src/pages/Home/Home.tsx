@@ -23,7 +23,8 @@ export default function Home() {
     {
       company: "The Genomics Institute",
       dateRange: "August 2021 - Present",
-      position: "Software Developer",
+      position: "Full Stack Software Engineer 2",
+      position2: "Full Stack Software Engineer 1",
       tags: ["React.js", "Kubernetes", "Flask"],
       image: genomicsInstituteLogo,
       link: "https://genomics.ucsc.edu/",
@@ -31,7 +32,7 @@ export default function Home() {
     {
       company: "LEEPS Lab",
       dateRange: "May 2020 - August 2021",
-      position: "Programmer Intern",
+      position: "Software Engineer Intern",
       tags: ["Django", "PostgreSQL", "Python"],
       image: ucscLogo,
       link: "https://leeps.ucsc.edu/home/",
@@ -78,7 +79,7 @@ export default function Home() {
         <Grid className="grid-item" xs={12} sm={6} item>
           <h2 className="title gradient-title">About Me</h2>
           <p className="intro-text">
-            Hi there! I'm Koorous Vargha, Software Developer at The Genomics
+            Hi there! I'm Koorous Vargha, Full Stack Software Engineer 2 at The Genomics
             Institute.
           </p>
 

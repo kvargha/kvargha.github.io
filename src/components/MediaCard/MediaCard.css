@@ -6,4 +6,5 @@
 
 .media-card-img {
   object-fit: contain !important;
+  padding: 8px;
 }

@@ -35,13 +35,7 @@ export default function About() {
             </p>
 
             <p>
-              I'm a Full Stack Software Engineer with experience in
-              cloud infrastructure and DevOps.
-            </p>
-
-            <p>
-              In my freetime, I'm either learning new tools/frameworks, or
-              watching the latest Marvel series.
+              I'm a Full Stack Software Engineer and an AWS Certified Solutions Architect - Associate.
             </p>
 
             <a href={'/Resume.pdf'} target="_blank" rel="noreferrer">

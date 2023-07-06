@@ -5,12 +5,20 @@ import MediaCard from "../../components/MediaCard/MediaCard";
 import { Container, Grid } from "@mui/material";
 
 // Images
+import doomerMeter from "../../img/DoomerMeter-Screenshot.png"
 import amberDash from "../../img/amber-dash.png";
 import gmail from "../../img/gmail.png";
 import soundcloud from "../../img/soundcloud.png";
 
 export default function Projects() {
   const projects = [
+    {
+      image: doomerMeter,
+      title: "DoomerMeter",
+      description:
+        "Performed real-time sentiment analysis on Reddit comments using Apache Kafka and AWS.",
+      code: "https://github.com/kvargha/DoomerMeter",
+    },
     {
       image: amberDash,
       title: "AmberDash",

@@ -39,7 +39,7 @@ import materialUI from "./img/Frameworks/materialui.svg";
 import nodeJS from "./img/Frameworks/nodejs.svg";
 // import polymerJS from "./img/Frameworks/polymerjs.svg";
 import reactJS from "./img/Frameworks/reactjs.svg";
-// import terraform from "./img/Frameworks/terraform.svg";
+import terraform from "./img/Frameworks/terraform.svg";
 
 // Cloud Services
 import aws from "./img/CloudServices/aws.svg";
@@ -175,10 +175,10 @@ export default function Skills() {
     //   img: polymerJS,
     //   title: "Polymer.js",
     // },
-    // {
-    //   img: terraform,
-    //   title: "Terraform",
-    // },
+    {
+      img: terraform,
+      title: "Terraform",
+    },
   ];
 
   const cloudServices = [
