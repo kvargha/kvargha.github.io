@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1bd9413.css",
-    "main.js": "/static/js/main.2070c306.js",
+    "main.css": "/static/css/main.843348a4.css",
+    "main.js": "/static/js/main.c37a23b4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/koorous-vargha-square.png": "/static/media/koorous-vargha-square.a4f6f8aba972e730f185.png",
     "static/media/ucsc.png": "/static/media/ucsc.08ad75c5ed789dbcd6cb.png",
     "static/media/soundcloud.png": "/static/media/soundcloud.53c1dd26d1ccdf2b1d19.png",
+    "static/media/DoomerMeter-Screenshot.png": "/static/media/DoomerMeter-Screenshot.e33d204242936702f9ab.png",
     "static/media/aws.svg": "/static/media/aws.124b58d3379a4b99b41c24e5b5bd6ddf.svg",
     "static/media/gmail.png": "/static/media/gmail.70f5ab8edfbc59f5c903.png",
     "static/media/expressjs_light_mode.svg": "/static/media/expressjs_light_mode.5790f007497c3838cf447ef70ccc7c6e.svg",
@@ -31,12 +32,13 @@
     "static/media/digitalocean.svg": "/static/media/digitalocean.5edd066fbadcda7b176ba71b65f0a1f9.svg",
     "static/media/css.svg": "/static/media/css.a231b5d95e833ec6fc610a779014e0cc.svg",
     "static/media/html.svg": "/static/media/html.023723b1305c0a4160f1cb3f39ad9a70.svg",
-    "main.f1bd9413.css.map": "/static/css/main.f1bd9413.css.map",
-    "main.2070c306.js.map": "/static/js/main.2070c306.js.map",
+    "static/media/terraform.svg": "/static/media/terraform.f578cd13245b48000aec8ea4940b375b.svg",
+    "main.843348a4.css.map": "/static/css/main.843348a4.css.map",
+    "main.c37a23b4.js.map": "/static/js/main.c37a23b4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1bd9413.css",
-    "static/js/main.2070c306.js"
+    "static/css/main.843348a4.css",
+    "static/js/main.c37a23b4.js"
   ]
 }
