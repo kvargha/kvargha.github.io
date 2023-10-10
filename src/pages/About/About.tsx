@@ -35,7 +35,7 @@ export default function About() {
             </p>
 
             <p>
-              I'm a Full Stack Software Engineer and an AWS Certified Solutions Architect - Associate.
+              I'm a Software Engineer and an AWS Certified Solutions Architect - Associate.
             </p>
 
             <p>
