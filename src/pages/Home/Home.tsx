@@ -35,7 +35,7 @@ export default function Home() {
       position: "Software Engineer Intern",
       tags: ["Django", "PostgreSQL", "Python"],
       image: ucscLogo,
-      link: "https://leeps.ucsc.edu/home/",
+      link: "https://leeps.ucsc.edu/",
     },
   ];
 
