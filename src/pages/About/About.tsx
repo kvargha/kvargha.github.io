@@ -35,11 +35,11 @@ export default function About() {
             </p>
 
             <p>
-              I'm a Full Stack Software Engineer and an AWS Certified Solutions Architect - Associate.
+              I'm a Software Engineer and an AWS Certified Solutions Architect - Associate.
             </p>
 
             <p>
-              I have experience in full stack development, cloud infrastructure, and DevOps.
+              I have experience in distributed systems, full stack development, cloud infrastructure, and DevOps.
             </p>
 
             <a href={'/Resume.pdf'} target="_blank" rel="noreferrer">

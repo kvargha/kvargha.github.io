@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import "./Home.css";
@@ -14,15 +14,28 @@ import { Container, Grid, Divider, Button } from "@mui/material";
 import ArticleIcon from "@mui/icons-material/Article";
 
 // Images
+import inBlue from "../../img/In-Blue.png";
+import inWhite from "../../img/In-White.png";
 import genomicsInstituteLogo from "../../img/genomics-institute.png";
 import ucscLogo from "../../img/ucsc.png";
 import { ReactComponent as CodingImg } from "../../img/coding-img.svg";
+import { AppContext } from "../../App";
 
 export default function Home() {
+  const isDarkTheme = useContext(AppContext);
+
   const experience = [
     {
+      company: "LinkedIn",
+      dateRange: "May 2024 - Present",
+      position: "Software Engineer, Systems Infrastructure",
+      tags: ["Java", "Apache Kafka", "Kubernetes"],
+      image: isDarkTheme ? inWhite : inBlue,
+      link: "https://www.linkedin.com/",
+    },
+    {
       company: "The Genomics Institute",
-      dateRange: "August 2021 - Present",
+      dateRange: "August 2021 - May 2024",
       position: "Full Stack Software Engineer 2",
       position2: "Full Stack Software Engineer 1",
       tags: ["React.js", "Kubernetes", "Flask"],
@@ -68,7 +81,7 @@ export default function Home() {
             <h1 className="main-title">
               Hello, I'm <span>Koorous Vargha</span>
             </h1>
-            <p>Full Stack Software Engineer</p>
+            <p>Software Engineer</p>
           </div>
 
           <CodingImg className="title-image" />
@@ -79,8 +92,7 @@ export default function Home() {
         <Grid className="grid-item" xs={12} sm={6} item>
           <h2 className="title gradient-title">About Me</h2>
           <p className="intro-text">
-            Hi there! I'm Koorous Vargha, Full Stack Software Engineer 2 at The Genomics
-            Institute.
+            Hi there! I'm Koorous Vargha, Software Engineer at LinkedIn.
           </p>
 
           <div className="about-me-buttons">

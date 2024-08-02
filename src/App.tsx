@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 import "./App.css";
 
@@ -93,6 +93,8 @@ const dark = createTheme({
   },
 });
 
+export const AppContext = createContext<boolean>(true);
+
 export default function App() {
   // Navigation
   const navigation = [
@@ -151,112 +153,114 @@ export default function App() {
 
   return (
     <Router>
-      <ScrollToTopOnRouteChange />
-      <ThemeProvider theme={isDarkTheme ? dark : light}>
-        <Box sx={{ display: "flex" }}>
-          <CssBaseline />
-          <MuiAppBar position="fixed">
-            <Toolbar>
-              <IconButton
-                color="inherit"
-                aria-label="open drawer"
-                onClick={handleDrawerOpen}
-                edge="start"
-                sx={{
-                  mr: 2,
-                  display: { sm: "none" },
-                  ...(openDrawer && { display: "none" }),
-                }}
-              >
-                <MenuIcon />
-              </IconButton>
-
-              <Link to="/" className={`header-link ${isDarkTheme ? "header-link-dark" : "header-link-light"}` }>
-                <Typography variant="h6" noWrap component="div">
-                  Koorous Vargha
-                </Typography>
-              </Link>
-
-              {/* Top link navigation */}
-              <Box
-                className={`link-list top-link-navigation ${isDarkTheme ? "link-list-dark" : "link-list-light"}`}
-                sx={{ display: { xs: "none", sm: "block" } }}
-              >
-                {navigation.map((item, index) => (
-                  <Button key={index} component={Link} to={item.link} size="large" >
-                    {item.text}
-                  </Button>
-                ))}
-              </Box>
-
-              <div style={{ flexGrow: 1 }}></div>
-
-              <Tooltip
-                title={isDarkTheme ? "Toggle light mode" : "Toggle dark mode"}
-              >
-                <IconButton onClick={changeTheme} color="inherit">
-                  {isDarkTheme ? <Brightness7Icon /> : <Brightness4Icon />}
-                </IconButton>
-              </Tooltip>
-            </Toolbar>
-          </MuiAppBar>
-          <Drawer
-            sx={{
-              width: drawerWidth,
-              flexShrink: 0,
-              "& .MuiDrawer-paper": {
-                width: drawerWidth,
-                boxSizing: "border-box",
-              },
-            }}
-            anchor="left"
-            open={openDrawer}
-            onClose={handleDrawerClose}
-          >
-            <DrawerHeader>
-              <IconButton onClick={handleDrawerClose}>
-                {theme.direction === "ltr" ? (
-                  <ChevronLeftIcon />
-                ) : (
-                  <ChevronRightIcon />
-                )}
-              </IconButton>
-            </DrawerHeader>
-            <Divider />
-
-            {/* Drawer navigation */}
-            <List className="drawer-link-list">
-              {navigation.map((item) => (
-                <ListItem
-                  key={item.text}
-                  component={Link}
-                  to={item.link}
-                  disablePadding
-                  onClick={handleDrawerClose}
+      <AppContext.Provider value={isDarkTheme}>
+        <ScrollToTopOnRouteChange />
+        <ThemeProvider theme={isDarkTheme ? dark : light}>
+          <Box sx={{ display: "flex" }}>
+            <CssBaseline />
+            <MuiAppBar position="fixed">
+              <Toolbar>
+                <IconButton
+                  color="inherit"
+                  aria-label="open drawer"
+                  onClick={handleDrawerOpen}
+                  edge="start"
+                  sx={{
+                    mr: 2,
+                    display: { sm: "none" },
+                    ...(openDrawer && { display: "none" }),
+                  }}
                 >
-                  <ListItemButton>
-                    <ListItemIcon>
-                      <item.icon />
-                    </ListItemIcon>
-                    <ListItemText primary={item.text} />
-                  </ListItemButton>
-                </ListItem>
-              ))}
-            </List>
-          </Drawer>
-          <Main>
-            <DrawerHeader />
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-            <Footer />
-            <ScrollToTop />
-          </Main>
-        </Box>
-      </ThemeProvider>
+                  <MenuIcon />
+                </IconButton>
+
+                <Link to="/" className={`header-link ${isDarkTheme ? "header-link-dark" : "header-link-light"}` }>
+                  <Typography variant="h6" noWrap component="div">
+                    Koorous Vargha
+                  </Typography>
+                </Link>
+
+                {/* Top link navigation */}
+                <Box
+                  className={`link-list top-link-navigation ${isDarkTheme ? "link-list-dark" : "link-list-light"}`}
+                  sx={{ display: { xs: "none", sm: "block" } }}
+                >
+                  {navigation.map((item, index) => (
+                    <Button key={index} component={Link} to={item.link} size="large" >
+                      {item.text}
+                    </Button>
+                  ))}
+                </Box>
+
+                <div style={{ flexGrow: 1 }}></div>
+
+                <Tooltip
+                  title={isDarkTheme ? "Toggle light mode" : "Toggle dark mode"}
+                >
+                  <IconButton onClick={changeTheme} color="inherit">
+                    {isDarkTheme ? <Brightness7Icon /> : <Brightness4Icon />}
+                  </IconButton>
+                </Tooltip>
+              </Toolbar>
+            </MuiAppBar>
+            <Drawer
+              sx={{
+                width: drawerWidth,
+                flexShrink: 0,
+                "& .MuiDrawer-paper": {
+                  width: drawerWidth,
+                  boxSizing: "border-box",
+                },
+              }}
+              anchor="left"
+              open={openDrawer}
+              onClose={handleDrawerClose}
+            >
+              <DrawerHeader>
+                <IconButton onClick={handleDrawerClose}>
+                  {theme.direction === "ltr" ? (
+                    <ChevronLeftIcon />
+                  ) : (
+                    <ChevronRightIcon />
+                  )}
+                </IconButton>
+              </DrawerHeader>
+              <Divider />
+
+              {/* Drawer navigation */}
+              <List className="drawer-link-list">
+                {navigation.map((item) => (
+                  <ListItem
+                    key={item.text}
+                    component={Link}
+                    to={item.link}
+                    disablePadding
+                    onClick={handleDrawerClose}
+                  >
+                    <ListItemButton>
+                      <ListItemIcon>
+                        <item.icon />
+                      </ListItemIcon>
+                      <ListItemText primary={item.text} />
+                    </ListItemButton>
+                  </ListItem>
+                ))}
+              </List>
+            </Drawer>
+            <Main>
+              <DrawerHeader />
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
+              </Routes>
+              <Footer />
+              <ScrollToTop />
+            </Main>
+          </Box>
+        </ThemeProvider>
+      </AppContext.Provider>
     </Router>
   );
 }
