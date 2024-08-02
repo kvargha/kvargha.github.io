@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.843348a4.css",
-    "main.js": "/static/js/main.247c44c9.js",
+    "main.css": "/static/css/main.6f0b04ed.css",
+    "main.js": "/static/js/main.d0ed3c75.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/koorous-vargha-square.png": "/static/media/koorous-vargha-square.a4f6f8aba972e730f185.png",
     "static/media/ucsc.png": "/static/media/ucsc.08ad75c5ed789dbcd6cb.png",
@@ -33,12 +33,12 @@
     "static/media/css.svg": "/static/media/css.a231b5d95e833ec6fc610a779014e0cc.svg",
     "static/media/html.svg": "/static/media/html.023723b1305c0a4160f1cb3f39ad9a70.svg",
     "static/media/terraform.svg": "/static/media/terraform.f578cd13245b48000aec8ea4940b375b.svg",
-    "main.843348a4.css.map": "/static/css/main.843348a4.css.map",
-    "main.247c44c9.js.map": "/static/js/main.247c44c9.js.map",
+    "main.6f0b04ed.css.map": "/static/css/main.6f0b04ed.css.map",
+    "main.d0ed3c75.js.map": "/static/js/main.d0ed3c75.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.843348a4.css",
-    "static/js/main.247c44c9.js"
+    "static/css/main.6f0b04ed.css",
+    "static/js/main.d0ed3c75.js"
   ]
 }
