@@ -11,7 +11,7 @@ import EducationCard from "../../components/EducationCard/EducationCard";
 // MUI Components
 import { Container, Grid, Divider, Button } from "@mui/material";
 
-import ArticleIcon from "@mui/icons-material/Article";
+// import ArticleIcon from "@mui/icons-material/Article";
 
 // Images
 import inBlue from "../../img/In-Blue.png";
@@ -102,7 +102,7 @@ export default function Home() {
               </Button>
             </Link>
 
-            <a href={"/Resume.pdf"} target="_blank" rel="noreferrer">
+            {/* <a href={"/Resume.pdf"} target="_blank" rel="noreferrer">
               <Button
                 variant="outlined"
                 size="large"
@@ -110,7 +110,7 @@ export default function Home() {
               >
                 Resume
               </Button>
-            </a>
+            </a> */}
           </div>
         </Grid>
         <Grid className="grid-item" xs={12} sm={6} item>

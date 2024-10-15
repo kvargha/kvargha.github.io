@@ -2,9 +2,9 @@ import KoorousVargha from "../../img/koorous-vargha-square.png";
 import "./About.css";
 
 // MUI Components
-import { Grid, Container, Button } from "@mui/material";
+import { Grid, Container } from "@mui/material";
 
-import ArticleIcon from "@mui/icons-material/Article";
+// import ArticleIcon from "@mui/icons-material/Article";
 
 export default function About() {
   return (
@@ -42,7 +42,7 @@ export default function About() {
               I have experience in distributed systems, full stack development, cloud infrastructure, and DevOps.
             </p>
 
-            <a href={'/Resume.pdf'} target="_blank" rel="noreferrer">
+            {/* <a href={'/Resume.pdf'} target="_blank" rel="noreferrer">
               <Button
                 variant="outlined"
                 size="large"
@@ -51,7 +51,7 @@ export default function About() {
               >
                 Resume
               </Button>
-            </a>
+            </a> */}
           </Grid>
         </Grid>
       </Container>
