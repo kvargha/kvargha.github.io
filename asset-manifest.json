@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6065b4bc.css",
-    "main.js": "/static/js/main.cc5a9e85.js",
+    "main.js": "/static/js/main.df90c674.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/koorous-vargha-square.png": "/static/media/koorous-vargha-square.a4f6f8aba972e730f185.png",
     "static/media/ucsc.png": "/static/media/ucsc.08ad75c5ed789dbcd6cb.png",
@@ -34,11 +34,11 @@
     "static/media/html.svg": "/static/media/html.023723b1305c0a4160f1cb3f39ad9a70.svg",
     "static/media/terraform.svg": "/static/media/terraform.f578cd13245b48000aec8ea4940b375b.svg",
     "main.6065b4bc.css.map": "/static/css/main.6065b4bc.css.map",
-    "main.cc5a9e85.js.map": "/static/js/main.cc5a9e85.js.map",
+    "main.df90c674.js.map": "/static/js/main.df90c674.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6065b4bc.css",
-    "static/js/main.cc5a9e85.js"
+    "static/js/main.df90c674.js"
   ]
 }
